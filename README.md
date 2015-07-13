@@ -1,7 +1,7 @@
 # honeypot-form
 This is a simple form with honeypot for spam protection. 
 
-The idea is to set up one input with a seeded value that shouln't change. If the value does change, the user is most likely a bot and you can deal with it as you wish.
+The idea is to set up one input with a seeded value that shouldn't change. If the value does change, the user is most likely a bot and you can deal with it as you wish.
 
     <div class="form-group honeypot" aria-hidden="true">
         <label for="poID">User ID</label>
